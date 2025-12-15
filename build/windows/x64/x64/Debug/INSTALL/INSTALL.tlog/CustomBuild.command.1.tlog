@@ -1,0 +1,10 @@
+^D:\OMNIA\BUILD\WINDOWS\X64\CMAKEFILES\2DFE9DB11322375F9D8A70AC035CFA75\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

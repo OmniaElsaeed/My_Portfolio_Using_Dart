@@ -1,0 +1,40 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+pubspec.lock
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.generated/
+
+# macOS
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.podspec.lock
+
+# Windows
+windows/runner/Release/
+windows/runner/Debug/
+windows/runner/*.vcxproj*
+windows/runner/*.sln
+windows/runner/*.pdb
+windows/runner/*.obj
+windows/runner/*.dll
+windows/runner/*.tlog
+
+# Linux
+linux/flutter/
+
+# Web
+build/web/
+
+# IDEs
+.idea/
+*.iml
+.vscode/

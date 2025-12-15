@@ -1,0 +1,1 @@
+ D:\\omnia\\.dart_tool\\flutter_build\\9c58d99bdd0d52ea61116d559c4dcd62\\native_assets.json: 
