@@ -4,16 +4,27 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69a1164f-73f9-48c6-9191-14c4d49db13f" name="Changes" comment="">
+    <list default="true" id="69a1164f-73f9-48c6-9191-14c4d49db13f" name="Changes" comment="Complete Project Section">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/debug_bundle_windows-x64_assets.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/debug_bundle_windows-x64_assets.stamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/windows/x64/ALL_BUILD.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/ALL_BUILD.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/windows/x64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/windows/x64/CMakeFiles/generate.stamp.depend" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/CMakeFiles/generate.stamp.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/windows/x64/ZERO_CHECK.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/ZERO_CHECK.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/windows/x64/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/windows/x64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/kernel_snapshot_program.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/kernel_snapshot_program.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/kernel_snapshot_program.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/kernel_snapshot_program.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9c58d99bdd0d52ea61116d559c4dcd62/outputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/a905011b1deaf381d681e14e06e02ad5.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/a905011b1deaf381d681e14e06e02ad5.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/flutter_assets/AssetManifest.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_assets/AssetManifest.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/windows/x64/install_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/install_manifest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/nav_items.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/nav_items.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/header_desktop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/header_desktop.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/header_mobile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/header_mobile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/main_mobile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/main_mobile.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +73,16 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;io.flutter.project.isFirstOpen&quot;: &quot;true&quot;,
     &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/omnia&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/omnia/assets&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\omnia\assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
@@ -81,6 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1765798569706</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complete Project Section">
+      <option name="closed" value="true" />
+      <created>1766023935793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766023935793</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete Project Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Project Section" />
   </component>
 </project>

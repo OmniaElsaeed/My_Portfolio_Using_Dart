@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/constants/colors.dart';
-import 'package:my_portfolio/widgets/contact_section.dart';
-import 'package:my_portfolio/widgets/main_desktop.dart';
-import 'package:my_portfolio/widgets/main_mobile.dart';
-import 'package:my_portfolio/widgets/projects_section.dart';
-import 'package:my_portfolio/widgets/skills_desktop.dart';
-import 'package:my_portfolio/widgets/skills_mobile.dart';
+import '../constants/colors.dart';
+import '../constants/nav_items.dart';
 import '../constants/size.dart';
-
 import '../widgets/about_section.dart';
+import '../widgets/contact_section.dart';
 import '../widgets/drawer_mobile.dart';
 import '../widgets/footer.dart';
 import '../widgets/header_desktop.dart';
 import '../widgets/header_mobile.dart';
+import '../widgets/main_desktop.dart';
+import '../widgets/main_mobile.dart';
+import '../widgets/projects_section.dart';
+import '../widgets/skills_desktop.dart';
+import '../widgets/skills_mobile.dart';
+import '../utils/project_utils.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -24,7 +25,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final scrollController = ScrollController();
-  final List<GlobalKey> navbarKeys = List.generate(4, (index) => GlobalKey());
+  final List<GlobalKey> navbarKeys = List.generate(navTitles.length, (index) => GlobalKey());
 
   @override
   Widget build(BuildContext context) {
@@ -46,70 +47,71 @@ class _HomePageState extends State<HomePage> {
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
-              SizedBox(key: navbarKeys.first),
+              SizedBox(key: navbarKeys[0]),
 
-              // MAIN
+              // HEADER
               if (constraints.maxWidth >= kMinDesktopWidth)
-                HeaderDesktop(onNavMenuTap: (int navIndex) {
-                  scrollToSection(navIndex);
-                })
+                HeaderDesktop(onNavMenuTap: scrollToSection)
               else
                 HeaderMobile(
                   onLogoTap: () {},
-                  onMenuTap: () {
-                    scaffoldKey.currentState?.openEndDrawer();
-                  },
+                  onMenuTap: () => scaffoldKey.currentState?.openEndDrawer(),
+                  onNavItemTap: scrollToSection,
                 ),
 
+              // MAIN
               if (constraints.maxWidth >= kMinDesktopWidth)
                 const MainDesktop()
               else
                 const MainMobile(),
-              // ABOUT
-              const AboutSection(),
-              const SizedBox(height: 30),
-              // SKILLS
-              Container(
-                key: navbarKeys[1],
-                width: screenWidth,
-                padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
-                color: CustomColor.bgLight1,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    // title
-                    const Text(
-                      "Skills",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 27,
-                        fontWeight: FontWeight.bold,
-                        color: CustomColor.yellowSecondary,
-                        fontStyle: FontStyle.italic,
-                      ),
-                    ),
-                    const SizedBox(height: 70),
 
-                    // platforms and skills
-                    if (constraints.maxWidth >= kMedDesktopWidth)
-                      const SkillsDesktop()
-                    else
-                      const SkillsMobile(),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 30),
+              // ABOUT
+      AboutSection(
+        key: navbarKeys[1],
+      ),
+      const SizedBox(height: 30),
+      // SKILLS
+      Container(
+      key: navbarKeys[2],
+      width: screenWidth,
+      padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
+      color: CustomColor.bgLight1,
+      child: Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+      // title
+      const Text(
+      "Skills",
+      textAlign: TextAlign.center,
+      style: TextStyle(
+      fontSize: 27,
+      fontWeight: FontWeight.bold,
+      color: CustomColor.yellowSecondary,
+      fontStyle: FontStyle.italic,
+      ),
+      ),
+      const SizedBox(height: 70),
+
+      // platforms and skills
+      if (constraints.maxWidth >= kMedDesktopWidth)
+      const SkillsDesktop()
+      else
+      const SkillsMobile(),
+      ],
+      ),
+      ),
+      const SizedBox(height: 30),
 
               // PROJECTS
               ProjectsSection(
-                key: navbarKeys[2],
+                key: navbarKeys[3],
               ),
 
               const SizedBox(height: 30),
 
               // CONTACT
               ContactInfoSection(
-                key: navbarKeys[3],
+                key: navbarKeys[4],
               ),
 
 
@@ -125,8 +127,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   void scrollToSection(int navIndex) {
-    if (navIndex == 4) {
-      // open a blog page
+    if (navIndex == 5) {
       return;
     }
 

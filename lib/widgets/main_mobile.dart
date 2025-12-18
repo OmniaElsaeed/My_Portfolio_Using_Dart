@@ -58,14 +58,7 @@ class MainMobile extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 15),
-          // contact btn
-          // SizedBox(
-          //   width: 190.0,
-          //   child: ElevatedButton(
-          //     onPressed: () {},
-          //     child: const Text("Get in touch"),
-          //   ),
-          // )
+
         ],
       ),
     );

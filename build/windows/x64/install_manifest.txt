@@ -22,6 +22,7 @@ D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/ios_icon.png
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/javascript.png
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/linkedin.png
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/my_flutter_avatar.png
+D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/nti.PNG
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/omnia.jpg
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/oop.jpg
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/projects/02.png
@@ -42,6 +43,7 @@ D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/projects/w03.
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/python.png
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/sql.PNG
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/telegram.png
+D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/testing.PNG
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/assets/web_icon.png
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
 D:/omnia/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
