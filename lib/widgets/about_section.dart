@@ -30,8 +30,14 @@ class AboutSection extends StatelessWidget {
           SizedBox(height: 20),
 
           Text(
-            "I am a third-year Computer Science student, passionate about Flutter development and data analysis, eager to build innovative apps and explore data-driven solutions."
-            ,style: TextStyle(
+            "I am a third-year student at Misr Higher Institute for Commerce and Computers, "
+                "passionate about Flutter development and data analysis.\n"
+                "I am actively involved as a CS member at Mansoura Robotics, "
+                "a Flutter developer at Breakin Point, "
+                "a Data Analysis trainee at DEPI, "
+                "and an HR member at ICPC Mansoura."
+              ,
+            style: TextStyle(
               fontSize: 16,
               height: 1.5,
               color: CustomColor.whiteSecondary,

@@ -22,14 +22,14 @@ List<ProjectUtils> workProjectUtils = [
     image: 'assets/oop.jpg',
     title: 'C++&OOP Project',
     subtitle:
-    ' OOP Project That implement different concepts,...',
+    ' OOP Project That implement different concepts like inheritance,...',
     webLink: 'https://github.com/OmniaElsaeed/C-OOP-Project',
   ),
   ProjectUtils(
     image: 'assets/Algorithm.PNG',
     title: 'Algorithm Project',
     subtitle:
-    'This is an implementation on Algorithm concepts ,...',
+    'This is an implementation on the  Algorithm heap sort',
     webLink: 'https://github.com/OmniaElsaeed/Algorithm.git',
   ),
   ProjectUtils(
@@ -57,10 +57,22 @@ List<ProjectUtils> hobbyProjectUtils = [
 
   ),
   ProjectUtils(
+    image: 'assets/nti.PNG',
+    title: 'Digital-Marketing',
+    subtitle: 'Competition OF Digital Marketing AT NTI',
+    webLink: 'https://www.linkedin.com/in/omnia-elsaeed-045891296/details/certifications/1762020687047/single-media-viewer/?profileId=ACoAAEetX_UByqAzVoMPjRIumsk2QQR7WuxkhSM',
+  ),
+  ProjectUtils(
+    image: 'assets/testing.PNG',
+    title: 'Testing Engineer',
+    subtitle: 'Competition of manual and automation Testing AT DEPI',
+    webLink: 'https://www.linkedin.com/in/omnia-elsaeed-045891296/edit/forms/position/2674648255/?profileFormEntryPoint=PROFILE_SECTION',
+  ),
+  ProjectUtils(
     image: 'assets/projects/mrorg.jpg',
     title: 'Organizing At Hackathon',
     subtitle:
-    'Participated at Organizing',
+    'Participated at Organizing the hackathon at M.R',
     webLink:'https://www.linkedin.com/in/omnia-elsaeed-045891296/details/certifications/1762020687047/single-media-viewer/?profileId=ACoAAEetX_UByqAzVoMPjRIumsk2QQR7WuxkhSM',
 
   ),
@@ -76,7 +88,7 @@ List<ProjectUtils> hobbyProjectUtils = [
     image: 'assets/projects/tot.PNG',
     title: 'Training Of Trainers',
     subtitle:
-    'For strengths The Soft Skills',
+    'Training for presentation skills,public speaking',
     webLink:'https://www.linkedin.com/in/omnia-elsaeed-045891296/details/certifications/1762020687047/single-media-viewer/?profileId=ACoAAEetX_UByqAzVoMPjRIumsk2QQR7WuxkhSM',
 
 
@@ -84,9 +96,8 @@ List<ProjectUtils> hobbyProjectUtils = [
   ProjectUtils(
     image: 'assets/projects/coderefine.PNG',
     title: 'Code-Refine Competition',
-    subtitle: 'Competition on PS And System Design',
+    subtitle: 'Competition on PS And System Design at IEEE',
     webLink: 'https://www.linkedin.com/in/omnia-elsaeed-045891296/details/certifications/1762020687047/single-media-viewer/?profileId=ACoAAEetX_UByqAzVoMPjRIumsk2QQR7WuxkhSM',
-
   ),
 
 ];
